@@ -26,6 +26,6 @@ git clone https://github.com/jodayyy/Blood-Donor-View-App.git
 3. Build and run the app on an emulator or Android device.
 
 ## Usage
-Refer to the Manual for detailed guidance. Here are the basic steps:
+Refer to the [Manual](https://github.com/jodayyy/Blood-Donor-View-App/blob/master/Blood%20Donor%20View%20App%20Manual.pdf) for detailed guidance. Here are the basic steps:
 1. **Database Page:** Accessible to manage donor and event data with options to insert, update, and delete.
 2. **User View Page:** Allows users to browse donor profiles and view details of donation events.
