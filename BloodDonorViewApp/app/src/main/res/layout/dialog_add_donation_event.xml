@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input for Donation Date -->
+    <EditText
+        android:id="@+id/editDonationDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date (e.g., 29/04/2024)"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <!-- Input for Start Time -->
+    <EditText
+        android:id="@+id/editStartTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Time (e.g., 10:00 AM)"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <!-- Input for End Time -->
+    <EditText
+        android:id="@+id/editEndTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Time (e.g., 12:00 PM)"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <!-- Input for Donation Venue -->
+    <EditText
+        android:id="@+id/editDonationVenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Venue" />
+
+    <!-- Input for Organizer -->
+    <EditText
+        android:id="@+id/editOrganizer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Organizer" />
+
+    <!-- Input for Target -->
+    <EditText
+        android:id="@+id/editTarget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Target (e.g., 100)" />
+
+    <!-- Input for Venue State -->
+    <EditText
+        android:id="@+id/editVenueState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Venue State" />
+
+    <!-- Input for Venue City -->
+    <EditText
+        android:id="@+id/editVenueCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Venue City" />
+
+</LinearLayout>
